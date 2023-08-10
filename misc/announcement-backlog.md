@@ -1,4 +1,4 @@
-## Introduction
+# Introduction
 
 As noted in the [convention changes document](convention-changes.md), sometimes a change to the conventions is made but is not yet announced due to there being a backlog of things to announce. This document contains the backlog.
 
@@ -6,46 +6,60 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
-@everyone Moved conventions:
+@everyone Renamed conventions:
 
-**Finesses with a Fix Component** (moved)
+**The Queued Finesse** (rename)
 
-- *Finesses* with a *Fix Component* are now moved from level 22 to the "extras" section.
+```text
+- The _Stacked Finesse_ is renamed to the _Queued Finesse_.
+- (_Stacked Ejection_ is not renamed since it does not use a queue.)
+```
+
+@everyone Deleted conventions:
+
+**The Junk Discharge** (deleted)
+
+```text
+- The _Junk Discharge_ has been deleted, since it is just the same thing as a _Unknown Trash Discharge_ or an _Unknown Dupe Discharge_.
+```
+
+@everyone New variant-specific conventions:
+
+**Hard Variant Revamp** (by pianoblook)
+
+```text
+- The efficiency threshold for hard variants is raised from 1.25 to 1.33.
+```
+
+**Odds & Evens Prompt Rank Exception** (by Sturm)
+
+```text
+- This convention only applies to the Odds & Evens variants.
+- Previously, _Prompts_ would not apply to a card if it had an odd clue on it.
+- Now, _Prompts_ do not apply if the card only has one clue on it and it is an odd clue.
+```
+
+**The 5 Odd Ejection** (by Sturm)
+
+```text
+- This convention only applies to the Odds & Evens variants.
+- An _Play Clue_ initiated with an odd clue to a 5 signals an _Ejection_ on the next player if they have to **blind-play two or more cards** to fulfill the _Finesse_. (This is similar to how _5 Color Ejection_ works.)
+- The _Odd Prompt Rank Exception_ applies when counting the blind-plays.
+- Players should be careful with odd clues focused on chop. Depending on if the _Always Loaded Principle_ applies, the clue can be a _Save Clue_, a _5 Odd Ejection_ or a _Rank Choice Ejection_.
+- For example, in a 3-player game:
+  - Red 4 is played on the stacks.
+  - Cathy has a red card clued in her hand. From _Good Touch Principle_, she assumes that it is the red 5.
+  - The only yellow card that both Alice and Bob see is Cathy's yellow 5.
+  - Alice gives an odd clue to Cathy, touching a yellow 5 on chop.
+  - Since Cathy is loaded with a playable red card, the _Always Loaded Principle_ applies. Therefore, the odd clue is a _Play Clue_ on the yellow 5.
+  - Since Bob has to blind-play two or more cards to fulfill the _Finesse_, he knows this is a _5 Odd Ejection_. Bob blind-plays his _Second Finesse Position_. It is a blue 1 and it successfully plays on the stacks.
+  - Cathy knows an _Ejection_ happened. The only ejection that matches this sequence is a _5 Odd Ejection_, so she marks her odd card as any non-red 5.
+```
 
 <br />
 
 ## The Backlog (Variant-Specific Conventions)
 
-**The Turnabout Ejection** (clarification)
+n/a
 
-- Previously, *Turnabout Ejection* could only be performed on a 1 or a 5. Now, it can also be performed on any playable pink card.
-- During the *Early Game*, *Turnabout Ejections* take precedence over *Bad Chop Move Ejections (with 5's)*. Afterwards, *Bad Chop Move Ejection* takes precedence.
-- *Turnabout Ejections (with 5's)* can only be performed with non-trash cards.
-- *Turnabout Ejections (with 1's)* cannot be performed once all 1's have been played.
-
-**Pink Precedence** (by pianoblook)
-
-- Normally, non-variant-specific conventions always take precedence over variant-specific conventions.
-- As an exception, the *Bubblegum Bluff* and the *Taffy Bluff* conventions usually take precedence over their non-variant-specific alternatives. Specifically:
-  - The *Bubblegum* and *Taffy* conventions take precedence over *Rank Choice Ejection (with 2)*.
-  - The *Bubblegum* and *Taffy* conventions take precedence over *Unknown Trash Discharge*.
-  - The *Bubblegum Bluff* and *Taffy Bluff* holds equal precedence to *4 Charm*; the clued player must therefore write identity notes for either option.
-  - A true *Bubblegum Finesse* takes precedence over *4 Charm*. (This is because, unlike in the *Bluff* scenarios, the pink blind-play "connects" to the rank clue).
-
-**Bubblegum Wraparound** (change) (by tim)
-
-- The *Bubblegum Wraparound* convention now only applies to variants with a light pink suit.
-
-**The Taffy Double Bluff** (by Kakashi)
-
-- First, see the section on the Taffy Bluff.
-- Rarely, a player can perform a *Taffy Double Bluff* by violating *Pink Promise* on a *two-away-from-playable* pink card.
-- For example, in a 4 player game:
-  - It is the first turn of the game and nothing is played on the stacks.
-  - Alice clues number 4 to Donald, touching a pink 3 on slot 3.
-  - Bob knows that since Alice violated *Pink Promise*, this must be some sort of *Bubblegum* move.
-  - Bob blind-plays his slot 4 card. It is a red 1 and it successfully plays on to the stacks.
-  - From Donald's perspective, he knows that Alice performed a *Bubblegum Bluff*. Donald marks his slot 3 card as a pink 2 (the pink card that is *one-away-from-playable*).
-  - Next, it is Cathy's turn. Cathy sees that Donald will mark his pink card as a pink 2. However, the card is really a pink 3, so the situation has not yet resolved.
-  - Cathy blind-plays her slot 1 card. It is a red 2 and it successfully plays on the stacks.
-  - Donald realizes that if his clued card was a pink 2, then Cathy would not have done anything. Thus, this must have been a *Taffy Double Bluff*. Donald updates the note on his card to be a pink 3 (the pink card that is *two-away-from-playable*).
+<br />

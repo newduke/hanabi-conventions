@@ -66,7 +66,7 @@ function Home() {
     >
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">
-          <img src={useBaseUrl("img/hyphenated-circle.png")} />
+          <img src={useBaseUrl("img/logo.png")} width="200em" />
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">
             Strategies for{" "}
@@ -93,7 +93,7 @@ function Home() {
         </div>
       </header>
       <main>
-        {features && features.length > 0 && (
+        {features.length > 0 && (
           <section className={styles.features}>
             <div className="container">
               <div className="row">

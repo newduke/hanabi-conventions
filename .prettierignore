@@ -1,0 +1,11 @@
+# Images
+*.svg
+
+# Docusaurus artifacts
+.docusaurus
+.cache-loader
+build
+
+# "prettier-plugin-organize-imports" is bugged with JSX
+src/pages/index.js
+src/beginnersGuide.js

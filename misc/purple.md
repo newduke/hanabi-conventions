@@ -12,7 +12,7 @@ Zamiel "owns" the Discord server, but for most intents and purposes, we want the
 - Help moderate the chat. We expect all chatters to follow the rules posted in the `#rules-and-resources` channel.
   - For example, feel free to delete gore, porn, spam, and so forth.
 - Ask in the `#moderator-only` channel before doing things like creating new channels, and so forth. If you aren't sure, just ask.
-- Give players the green "H-Group - Some Experience" role once you have played a game with them and they have demonstrated that they have read and understood the beginner's guide.
+- Give new players the green role once you have played a game with them and confirmed that they have demonstrated the criteria listed in the #role-explanations channel. (There's no need to announce this to others.)
 
 <br />
 
@@ -26,7 +26,7 @@ Zamiel "owns" the Discord server, but for most intents and purposes, we want the
 
 ## The Culture
 
-- Purple people are seen as ambassadors of the Hyphen-ated group, and as ambassadors of Hanabi more generally.
+- Purple people are seen as ambassadors of the group, and as ambassadors of Hanabi more generally.
 - Thus, we want purple people to outwardly reflect the values of the group - values that you presumably already know.
 
 ### Politeness
@@ -39,7 +39,7 @@ Zamiel "owns" the Discord server, but for most intents and purposes, we want the
 
 ### Patience
 
-- Your patience *will* be tested, especially by new players (and some more than others). But have a little empathy; we were all there once.
+- Your patience _will_ be tested, especially by new players (and some more than others). But have a little empathy; we were all there once.
 
 ### Inclusion
 
@@ -53,22 +53,3 @@ Purple people need to mix with green people so that our values continue to propa
 Thank you for being a part of the group that I love so much!
 
 <br />
-
-## Criteria for the Purple Role
-
-The following is a rough set of criteria for someone receiving the purple role:
-
-- Have played "actively" for at least 1 year.
-  - Active is defined as playing at least a few games a week. However, we acknowledge that for most people, there will be periods of heavy activity and periods where no Hanabi is played at all.
-  - Not playing any games for a 1+ month period would mean that that the period is subtracted from the 1 year calculation.
-  - The beginning point for measuring 1 year is the week that the person started playing regularly with one or more players who currently have the purple role.
-- Is a "good fit" for the role.
-  - In other words, the person should be well-liked and regularly displays the 4 qualities listed in the "Culture" section above.
-
-The following is not relevant:
-
-- Someone's skill level.
-  - The purple role isn't meant to indicate that you are a good player - it just indicates that you have been around for a year and have assimilated our cultural values of politeness.
-  - After one year of playing, some people will be better at the game than others. But this isn't a competition. Any person who has played at least a year will know *most* of the important conventions, and that's good enough.
-- The amount of games played.
-  - Some people play Hanabi more than others, but everyone has a life outside of the game. We don't think it is particularly healthy for people to shortcut the process by grinding out a massive amount of games. In general, we want Hyphen-ated members to continue playing with the group for long periods of time into the future that are not marked by short bursts of activity.

@@ -1,14 +1,13 @@
 // This is a Docusaurus plugin to automatically create SVG images from the YAML files located in the
-// "image-generator/yml" directory
-// This is triggered whenever the website is built
+// "image-generator/yml" directory. This is triggered whenever the website is built.
 
-const path = require("path");
+const path = require("node:path");
 
 module.exports = function hanabiDocusaurusPlugin(_context, _options) {
   return {
     name: "hanabi-docusaurus-plugin",
     configureWebpack(_config, _isServer, _utils) {
-      const createSVGScriptPath = path.resolve(__dirname, "create-svg.py");
+      const createSVGScriptPath = path.resolve(__dirname, "create_svg.py");
       return {
         module: {
           rules: [
@@ -23,10 +22,16 @@ module.exports = function hanabiDocusaurusPlugin(_context, _options) {
                     svgoConfig: {
                       plugins: [
                         {
-                          removeViewBox: false,
+                          name: "preset-default",
+                          params: {
+                            overrides: {
+                              removeViewBox: false,
+                            },
+                          },
                         },
                         {
-                          prefixIds: {
+                          name: "prefixIds",
+                          params: {
                             prefixClassNames: false,
                           },
                         },
@@ -38,7 +43,7 @@ module.exports = function hanabiDocusaurusPlugin(_context, _options) {
                 {
                   loader: "shell-loader",
                   options: {
-                    script: `bash ${createSVGScriptPath}`,
+                    script: `python ${createSVGScriptPath}`,
                   },
                 },
                 {

@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
-import { mainSidebar } from "../sidebars";
+import { mainSidebar } from "../sidebars.js";
 
 const beginnersGuidePartsRaw = mainSidebar.find(
   (item) => item["Beginner's Guide"]
@@ -30,24 +30,16 @@ export default function Progress({ id }) {
   }
   const percentage = Math.round(((part + 1) / TOTAL_PARTS) * 100);
 
-  // Once the component is rendered, stick it underneath the table of contents and make it visible
+  // Once the component is rendered, stick it underneath the table of contents and make it visible.
   useEffect(() => {
-    document
-      .querySelector("main > div > div > div:nth-child(2)")
-      .append(document.querySelector("#percent"));
-    document.querySelector("#percent").style.display = null;
+    const toc = document.querySelector("ul.table-of-contents");
+    if (toc) {
+      toc.style.paddingTop = "6em";
+    }
   });
 
   return (
-    <div
-      id="percent"
-      style={{
-        position: "fixed",
-        display: "none",
-        width: "8em",
-        height: "8em",
-      }}
-    >
+    <div id="percent">
       <CircularProgressbar value={percentage} text={`${percentage}%`} />
     </div>
   );
